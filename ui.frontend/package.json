@@ -7,7 +7,8 @@
     "build": "react-scripts build && clientlib --verbose",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sync": "aemsync -d -w ../ui.apps/src/main/content"
+    "sync": "aemsync -d -w ../ui.apps/src/main/content",
+    "build-styles": "node build.js"
   },
   "dependencies": {
     "@adobe/aem-react-editable-components": "^1.1.6",
@@ -42,6 +43,7 @@
     "sass": "^1.56.0",
     "sass-loader": "^6.0.7",
     "sinon": "^7.5.0",
+    "style-dictionary": "^3.7.1",
     "style-loader": "^0.20.3",
     "typescript": "^3.4.2",
     "webpack": "4.44.2",
