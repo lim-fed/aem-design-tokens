@@ -13,6 +13,7 @@ tmp/
 local.properties
 .settings/
 .loadpath
+!ui.frontend/*
 
 # Eclipse Core
 .project
